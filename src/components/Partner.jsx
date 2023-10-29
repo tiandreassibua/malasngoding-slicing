@@ -3,12 +3,12 @@ import React from "react";
 
 const Partner = () => {
     return (
-        <section className="bg-gray-200 py-20 border-y border-gray-300">
+        <section className="bg-gray-200 py-10 px-5 border-y border-gray-300">
             <div className="container mx-auto">
                 <h1 className="uppercase text-center text-lg font-bold text-gray-500">
                     TELAH KERJA SAMA DENGAN 100+ PARTNER
                 </h1>
-                <div className="flex justify-center items-center gap-20 mt-7">
+                <div className="flex justify-center items-center gap-5 flex-wrap md:gap-15 lg:gap-20 mt-7">
                     <Image
                         src="https://assets.bukalapak.com/daisy/compro/docs/media/brand-assets/9fe100e-1.png"
                         width={150}

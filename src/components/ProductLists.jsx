@@ -4,7 +4,7 @@ import { Button } from "@nextui-org/react";
 
 const ProductLists = () => {
     return (
-        <section className="bg-gray-100 py-20">
+        <section className="bg-gray-100 py-10 px-5">
             <div className="container mx-auto">
                 <div>
                     <h1 className="text-4xl font-bold">
@@ -15,8 +15,7 @@ const ProductLists = () => {
                     </h2>
                 </div>
                 <div className="mt-10">
-                    <div className="grid grid-cols-5 gap-10">
-                        <ProductItem />
+                    <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-10">
                         <ProductItem />
                         <ProductItem />
                         <ProductItem />

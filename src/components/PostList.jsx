@@ -4,9 +4,9 @@ import PostItem from "./PostItem";
 const PostList = () => {
     return (
         <section>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-5">
                 <div className="mt-20">
-                    <h1 className="text-center text-4xl font-bold">
+                    <h1 className="text-center text-2xl md:text-4xl font-bold">
                         Terbaru di Malas Ngoding
                     </h1>
                     <h2 className="text-center font-medium text-gray-500">
@@ -14,7 +14,7 @@ const PostList = () => {
                     </h2>
                 </div>
                 <div className="mt-20">
-                    <div className="grid grid-cols-4 gap-10">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
                         <PostItem />
                         <PostItem />
                         <PostItem />
