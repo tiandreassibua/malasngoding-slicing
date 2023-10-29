@@ -12,20 +12,20 @@ const Footer = () => {
     return (
         <footer className="py-20 border-t border-t-gray-300">
             <div className="flex flex-col justify-center items-center">
-                <ul className="font-bold flex gap-x-5">
-                    <li className="hover:text-blue-500 text-lg transition-all duration-100 ease-in-out">
+                <ul className="font-bold flex gap-x-5 md:text-lg">
+                    <li className="hover:text-blue-500 transition-all duration-100 ease-in-out">
                         <a href="#">Tutorial</a>
                     </li>
-                    <li className="hover:text-blue-500 text-lg transition-all duration-100 ease-in-out">
+                    <li className="hover:text-blue-500 transition-all duration-100 ease-in-out">
                         <a href="#">Shop</a>
                     </li>
-                    <li className="hover:text-blue-500 text-lg transition-all duration-100 ease-in-out">
+                    <li className="hover:text-blue-500 transition-all duration-100 ease-in-out">
                         <a href="#">Circle</a>
                     </li>
-                    <li className="hover:text-blue-500 text-lg transition-all duration-100 ease-in-out">
+                    <li className="hover:text-blue-500 transition-all duration-100 ease-in-out">
                         <a href="#">Cara Pembelian</a>
                     </li>
-                    <li className="hover:text-blue-500 text-lg transition-all duration-100 ease-in-out">
+                    <li className="hover:text-blue-500 transition-all duration-100 ease-in-out">
                         <a href="#">Kontak</a>
                     </li>
                 </ul>
